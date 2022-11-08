@@ -24,9 +24,8 @@ export default HomePage
 
 const StyledHeader = styled.div`
     img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
+        width: 100%;
+        object-fit: cover;
     }
     .user-info{
         display: flex;
@@ -35,6 +34,12 @@ const StyledHeader = styled.div`
         padding: 16px;
         gap: 16px;
     }
+    .user-info img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
 `
 
 function Header(){
