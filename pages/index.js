@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { CSSReset } from "../src/components/CSSReset"
 import Menu from "../src/components/Menu"
 import { StyledTimeline } from "../src/components/Timeline"
+import Image from "next/image"
 import Banner from "../src/assets/imgs/banner.jpg"
 
 
