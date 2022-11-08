@@ -5,16 +5,31 @@
     "playlists": {
         "jogos": [
             {
-                "title": "algo",
-                "url": "",
-                "thumb": ""
+                "title": "Opinando sobre TODOS OS POKÉMON da PRIMEIRA geração! (PARTE 1)",
+                "url": "https://www.youtube.com/watch?v=WwcM025sCBo",
+                "thumb": "https://img.youtube.com/vi/WwcM025sCBo/hqdefault.jpg"
+            },
+            {
+                "title": "POKÉMON LEGENDS poderia se tornar o INJUSTICE da GameFreak? | Opinando!",
+                "url": "https://www.youtube.com/watch?v=PqaZH8rKptM",
+                "thumb": "https://img.youtube.com/vi/PqaZH8rKptM/hqdefault.jpg"
             }
         ],
         "frontend": [
             {
-                "title": "algo",
-                "url": "",
-                "thumb": ""
+                "title": "Como inicio meus apps com ReactJS? Next.js, TypeScript, ESLint e Styled Components | Code/Drops #50",
+                "url": "https://www.youtube.com/watch?v=1nVUfZg2dSA&list=PL85ITvJ7FLohz54DLfinJeHi7DrHGT2_U&index=13",
+                "thumb": "https://img.youtube.com/vi/1nVUfZg2dSA/hqdefault.jpg"
+            },
+            {
+                "title": "React/Next.js - Deploy de Apps na AWS (Sem Vercel) - Code/drops #70",
+                "url": "https://www.youtube.com/watch?v=keaS0Rr_eg8&list=PL85ITvJ7FLohz54DLfinJeHi7DrHGT2_U&index=5",
+                "thumb": "https://img.youtube.com/vi/keaS0Rr_eg8/hqdefault.jpg"
+            },
+            {
+                "title": "10 Coisas IMPRESSIONANTES Que Encontrei na Internet!!",
+                "url": "https://www.youtube.com/watch?v=m26jErLd5ds",
+                "thumb": "https://img.youtube.com/vi/m26jErLd5ds/hqdefault.jpg"
             }
         ]
     }
