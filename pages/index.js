@@ -39,7 +39,7 @@ const StyledHeader = styled.div`
 function Header(){
     return (
         <StyledHeader>
-            <img src={Banner} />
+            <Image src={Banner} alt="Banner do AluraTube de Luís Henrique" quality={100} />
             <section className="user-info">
                 <img src={config.github}/>
                 <div>
