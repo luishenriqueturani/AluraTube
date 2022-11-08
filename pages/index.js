@@ -34,7 +34,7 @@ const StyledHeader = styled.div`
         padding: 16px;
         gap: 16px;
     }
-    .user-info img{
+    .user-picture{
         width: 80px;
         height: 80px;
         border-radius: 50%;
@@ -47,7 +47,7 @@ function Header(){
         <StyledHeader>
             <Image src={Banner} alt="Banner do AluraTube de Luís Henrique" quality={100} />
             <section className="user-info">
-                <img src={config.github}/>
+                <img src={config.github} className="user-picture" />
                 <div>
                     <h2>
                         {config.name}
