@@ -1,3 +1,4 @@
+import React from "react"
 import config from "../config.json"
 import styled from "styled-components"
 import { CSSReset } from "../src/components/CSSReset"
@@ -8,13 +9,16 @@ import Banner from "../src/assets/imgs/banner.jpg"
 
 
 function HomePage(){
+
+    const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+
     return (
         <>
             <CSSReset />
             <div style={{}}>
-                <Menu />
+                <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <Header/>
-                <Timeline playlists={config.playlists} ></Timeline>
+                <Timeline searchValue={valorDoFiltro} playlists={config.playlists} ></Timeline>
             </div>        
         </>
     )
@@ -63,7 +67,7 @@ function Header(){
     )
 }
 
-function Timeline(props){
+function Timeline({searchValue, ...props}){
     const playlistNames = Object.keys(props.playlists)
     
     return (
@@ -76,7 +80,9 @@ function Timeline(props){
                             <h2>{playlistName}</h2>
                             <div>
                                 {
-                                    videos.map((video) =>{
+                                    videos.filter((video) => {
+                                        return video.title.toLowerCase().includes(searchValue.toLowerCase())
+                                    }).map((video) =>{
                                         return (
                                             <a href={video.url}>
                                                 <img src={video.thumb}/>
