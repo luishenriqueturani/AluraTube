@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { CSSReset } from "../src/components/CSSReset"
 import Menu from "../src/components/Menu"
 import { StyledTimeline } from "../src/components/Timeline"
+import Banner from "../src/assets/imgs/banner.jpg"
 
 
 function HomePage(){
@@ -38,7 +39,7 @@ const StyledHeader = styled.div`
 function Header(){
     return (
         <StyledHeader>
-            <img src="banner"/>
+            <img src={Banner} />
             <section className="user-info">
                 <img src={config.github}/>
                 <div>
