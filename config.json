@@ -1,0 +1,21 @@
+{
+    "name": "Luís Henrique Turani",
+    "job": "Desenvolvedor",
+    "github": "https://github.com/luishenriqueturani.png",
+    "playlists": {
+        "jogos": [
+            {
+                "title": "algo",
+                "url": "",
+                "thumb": ""
+            }
+        ],
+        "frontend": [
+            {
+                "title": "algo",
+                "url": "",
+                "thumb": ""
+            }
+        ]
+    }
+}
