@@ -26,6 +26,7 @@ const StyledHeader = styled.div`
     img {
         width: 100%;
         object-fit: cover;
+        max-height: 230px;
     }
     .user-info{
         display: flex;
